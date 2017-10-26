@@ -41,7 +41,7 @@
 			<?php
 				wp_nav_menu( array(
 					'theme_location' => 'primary',
-					'menu' => esc_html__( 'Primary Menu', 'wp-messively' ),
+					'menu' => esc_html__( 'Primary Menu', 'wp-massively' ),
 					'container' => 'ul',
 					'menu_class' => 'nav',
 					'menu_id' => 'nav',
