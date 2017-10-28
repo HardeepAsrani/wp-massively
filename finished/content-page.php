@@ -1,4 +1,4 @@
-<article class="entry">
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'entry' ); ?>>
     <header class="entry-header">
         <h1 class="entry-title">
             <?php the_title();?>
@@ -11,5 +11,6 @@
     </div>
     <div class="entry-content">
         <?php the_content(); ?>
+        <?php wp_link_pages(); ?>
     </div>
 </article>

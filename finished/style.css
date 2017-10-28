@@ -586,6 +586,11 @@ img.alignright,
     /* many screen reader and browser combinations announce broken words as they would appear visually */
     word-wrap: normal !important;
 }
+.bypostauthor .fn::before {
+    content: "\f040";
+    font-family: "FontAwesome";
+    margin-right: 10px;
+}
 img,
 video,
 iframe,
